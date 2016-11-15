@@ -13,4 +13,4 @@ dependencies:
   prod:
     branch: master
     heroku:
-      appname: personalSite
+      appname: sleepy-stream-31949
