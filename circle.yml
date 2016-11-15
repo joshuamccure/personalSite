@@ -8,3 +8,9 @@ dependencies:
     - bower install
   override:
     - echo Great success
+
+  deployment:
+  prod:
+    branch: master
+    heroku:
+      appname: personalSite
