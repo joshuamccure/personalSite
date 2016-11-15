@@ -4,13 +4,10 @@ machine:
 
 dependencies:
   pre:
-    - npm install -g bower
     - bower install
-  override:
-    - echo Great success
 
 deployment:
   prod:
     branch: master
     heroku:
-      appname: sleepy-stream-31949
+      appname: joshmccure
