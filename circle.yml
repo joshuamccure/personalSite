@@ -9,7 +9,7 @@ dependencies:
   override:
     - echo Great success
 
-  deployment:
+deployment:
   prod:
     branch: master
     heroku:
