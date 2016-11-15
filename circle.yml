@@ -1,12 +1,7 @@
 machine:
   node:
     version: 6.4.0
-
-dependencies:
-  pre:
-    - npm install -g bower
-    - bower install
-
+    
 deployment:
   prod:
     branch: master
